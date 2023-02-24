@@ -262,7 +262,7 @@ forestplot <- function(df,
         shape = !!shape,
         filled = .data$.filled
       ),
-      position = ggstance::position_dodgev(height = 0.5)
+      position = ggstance::position_dodgev(height = 0.9)
     ) +
     # Define the shapes to be used manually
     ggplot2::scale_shape_manual(values = c(21L, 22L, 23L, 24L, 25L)) +
